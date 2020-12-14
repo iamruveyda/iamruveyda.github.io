@@ -81,6 +81,36 @@ a {
 
 
 
+@media (max-width: 480px) {
+    body::before {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    #header {
+        height: 120vh;
+    }
+
+        #header h1 {
+            font-size: 70px;
+        }
+
+        #header .socialMediaLinks {
+            margin-top: 20px;
+        }
+
+            #header .socialMediaLinks a {
+                font-size: 10px;
+                width: 50px;
+                height: 50px;
+            }
+
+        #header .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+}
 
 
 
